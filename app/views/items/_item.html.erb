@@ -1,0 +1,3 @@
+<div class="average-review-rating" data-score=<%= item.reviews.average(:all_rating) %>></div>
+　<%=@all_rating %>：<%= item.reviews.average(:all_rating).to_f.round(1) %>
+</div>
